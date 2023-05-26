@@ -1,3 +1,7 @@
+# THIS IS A FORK OF https://github.com/aws-samples/amazon-kendra-langchain-extensions WITHOUT A FROZEN LANGCHAIN DEPENDENCY
+# USE AT YOUR OWN RISK, AND CONSIDER FREEZING YOUR LANGCHAIN VERSION HIGHER UP IN YOUR DEPENDENCIES
+
+
 # AWS Langchain
 This repo provides a set of utility classes to work with [Langchain](https://github.com/hwchase17/langchain/tree/master). It currently has a retriever class `KendraIndexRetriever` for working with a Kendra index and sample scripts to execute the QA chain for SageMaker, Open AI and Anthropic providers.
 
